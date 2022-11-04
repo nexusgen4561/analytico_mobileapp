@@ -66,16 +66,22 @@ class _homePageState extends State<homePage> {
                   top: 0,
                   left: 0,
                   child: Container(
-                    padding: EdgeInsets.all(15),
+                    padding: EdgeInsets.all(10),
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("FIND THE BEST DEAL", style: headingStyle),
+                        Text("Find the Best Deal",
+                            style: TextStyle(
+                              color: Color(0XFFf4f2dc),
+                              fontSize: 24,
+                              fontWeight: FontWeight.w900,
+                              fontFamily: 'Inter',
+                            )),
                         SizedBox(
                           height: 5,
                         ),
                         Text(
-                          "We provide the right insurance based \non your budget and cash",
+                          "We provide the right insurance \nbased on your budget and cash",
                           style: TextStyle(
                             fontSize: 16,
                             color: Color(0XFFf4f2dc),
@@ -86,14 +92,14 @@ class _homePageState extends State<homePage> {
                   ),
                 ),
                 Positioned(
-                  bottom: 0,
                   right: 0,
                   child: Container(
-                    height: 100,
+                    height: 150,
                     width: 100,
                     decoration: BoxDecoration(
                         image: DecorationImage(
-                            image: AssetImage('assets/images/bannerImg.png'))),
+                            image:
+                                AssetImage('assets/images/lifeinsurance.png'))),
                   ),
                 )
               ],

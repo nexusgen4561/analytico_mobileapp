@@ -62,17 +62,10 @@ class _getInsuredState extends State<getInsured> {
                   Text(
                     "Find the right Insurance for you.",
                     style: TextStyle(
-                        shadows: [
-                          Shadow(
-                            offset: Offset(0.0, 2),
-                            blurRadius: 3.0,
-                            color: Colors.black,
-                          )
-                        ],
                         color: Color(0xffb265138),
                         fontSize: 30,
                         fontWeight: FontWeight.w700,
-                        fontFamily: 'sfpro'),
+                        fontFamily: 'Inter'),
                   ),
                   SizedBox(
                     height: 15,
