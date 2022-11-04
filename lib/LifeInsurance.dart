@@ -12,12 +12,16 @@ class LifeInsurance extends StatelessWidget {
   }
 }
 
+enum SingingCharacter { lafayette, jefferson }
+
 class lifeInsurance extends StatefulWidget {
   @override
   _lifeInsuranceState createState() => _lifeInsuranceState();
 }
 
 class _lifeInsuranceState extends State<lifeInsurance> {
+  SingingCharacter? _character = SingingCharacter.lafayette;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
